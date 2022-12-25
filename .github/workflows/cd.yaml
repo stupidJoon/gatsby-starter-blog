@@ -16,4 +16,4 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
-          deploy-repo: "stupidJoon/stupidjoon.github.io"
+          deploy-repo: "stupidjoon.github.io"
