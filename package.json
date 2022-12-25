@@ -19,8 +19,9 @@
     "react-dom": "^18.1.0"
   },
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop -H 0.0.0.0",
+    "build": "gatsby build",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   }
